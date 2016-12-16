@@ -1,25 +1,10 @@
 /**
  * CSS DEFAULTS
  *
- *
  */
 
 
- /* ==========================================================================
-    #BOX-SIZING
-    Using border-box for box sizing
-    https://www.paulirish.com/2012/box-sizing-border-box-ftw/
-    ========================================================================== */
- html {
-   box-sizing: border-box;
- }
-
- *, *:before, *:after {
-   box-sizing: inherit;
- }
-
-
-/**
+ /**
  * Some type of properties are not inherited by default and some elements do not inherit some properties.
  * This is to make sure all elements inherit properties from the global scope.
  * https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
@@ -30,6 +15,18 @@
   color: inherit;
   margin: 0;
   padding: 0;
+}
+
+/**
+ * Using border-box for box sizing
+ * https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /**
