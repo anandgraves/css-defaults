@@ -1,7 +1,8 @@
 node_modules
 .sass-cache
 bower_components
-css/main.css
+*.css
+*.css.map
 
 ##############################################
 # https://gist.github.com/octocat/9257657
