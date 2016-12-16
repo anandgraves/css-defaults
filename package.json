@@ -1,0 +1,15 @@
+{
+  "name": "css-defaults",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandgraves/css-defaults.git"
+  },
+  "author": "Anand Graves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anandgraves/css-defaults/issues"
+  },
+  "homepage": "https://github.com/anandgraves/css-defaults#readme"
+}
