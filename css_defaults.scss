@@ -1,6 +1,6 @@
 /**
- * CSS DEFAULTS
- *
+ * CSS Defaults
+ * https://github.com/anandgraves/css-defaults
  */
 
 
@@ -35,13 +35,15 @@ html {
  *    https://github.com/necolas/normalize.css
  * 2. Change the default tap highlight color.
  *    https://davidwalsh.name/mobile-highlight-color
+ * 3. Improve readability with font smoothing
+ *    https://davidwalsh.name/font-smoothing
  */
 html {
     -ms-text-size-adjust: 100%; /* [1] */
     -webkit-text-size-adjust: 100%; /* [1] */
     -webkit-tap-highlight-color: transparent; /* [2] */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased; /* [3] */
+    -moz-osx-font-smoothing: grayscale; /* [3] */
   }
 
 /**
