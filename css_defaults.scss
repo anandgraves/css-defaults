@@ -45,6 +45,10 @@ html {
     -webkit-font-smoothing: antialiased; /* [3] */
     -moz-osx-font-smoothing: grayscale; /* [3] */
   }
+  
+body {
+    overflow-x: hidden;
+}
 
 ul,
 ol {
