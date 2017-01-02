@@ -46,6 +46,11 @@ html {
     -moz-osx-font-smoothing: grayscale; /* [3] */
   }
 
+ul,
+ol {
+    margin-left: 1rem;
+}
+
 /**
  * Remove default table spacing.
  * https://github.com/inuitcss/inuitcss/blob/master/generic/_generic.reset.scss
