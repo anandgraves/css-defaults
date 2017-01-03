@@ -51,6 +51,23 @@ body {
 }
 
 /**
+ * Enable HTML5 elements to be able to be styled through CSS in Internet Explorer
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
  * Shows the bullets inside the content area
  */
 ul,
