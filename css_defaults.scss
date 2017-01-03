@@ -65,6 +65,10 @@ p:empty {
     display: none;
 }
 
+label {
+  cursor: pointer;
+}
+
 /**
  * Remove default table spacing.
  * https://github.com/inuitcss/inuitcss/blob/master/generic/_generic.reset.scss
