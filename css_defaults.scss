@@ -58,6 +58,14 @@ ol {
     margin-left: 1rem;
 }
 
+input,
+textarea, 
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
 /**
  * Don't show empty <p> elements
  */
