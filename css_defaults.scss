@@ -59,6 +59,13 @@ ol {
 }
 
 /**
+ * Don't show empty <p> elements
+ */
+p:empty {
+    display: none;
+}
+
+/**
  * Remove default table spacing.
  * https://github.com/inuitcss/inuitcss/blob/master/generic/_generic.reset.scss
  */
