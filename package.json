@@ -11,5 +11,15 @@
   "bugs": {
     "url": "https://github.com/anandgraves/css-defaults/issues"
   },
-  "homepage": "https://github.com/anandgraves/css-defaults#readme"
+  "homepage": "https://github.com/anandgraves/css-defaults#readme",
+  "scripts": {
+    "autoprefixer": "postcss --use autoprefixer -o css_defaults.css css_defaults.css",
+    "sass": "node-sass css_defaults.scss css_defaults.css --output-style expanded",
+    "build": "npm run sass && npm run autoprefixer"
+  },
+  "devDependencies": {
+    "autoprefixer": "*",
+    "node-sass": "*",
+    "postcss-cli": "*"
+  }
 }
