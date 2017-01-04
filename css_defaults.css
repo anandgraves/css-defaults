@@ -1,0 +1,63 @@
+/**
+ * CSS Defaults
+ * https://github.com/anandgraves/css-defaults
+ */
+/**
+ * Some type of properties are not inherited by default and some elements do not inherit some properties.
+ * This is to make sure all elements inherit properties from the global scope.
+ * https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
+ */
+* {
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Using border-box for box sizing
+ * https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/**
+ * 1. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ *    https://github.com/necolas/normalize.css
+ * 2. Change the default tap highlight color.
+ *    https://davidwalsh.name/mobile-highlight-color
+ * 3. Improve readability with font smoothing
+ *    https://davidwalsh.name/font-smoothing
+ */
+html {
+  -ms-text-size-adjust: 100%;
+  /* [1] */
+  -webkit-text-size-adjust: 100%;
+  /* [1] */
+  -webkit-tap-highlight-color: transparent;
+  /* [2] */
+  -webkit-font-smoothing: antialiased;
+  /* [3] */
+  -moz-osx-font-smoothing: grayscale;
+  /* [3] */
+}
+
+/**
+ * Remove default table spacing.
+ * https://github.com/inuitcss/inuitcss/blob/master/generic/_generic.reset.scss
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+iframe {
+  border: 0;
+}
