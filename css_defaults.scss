@@ -39,15 +39,15 @@ html {
  *    https://davidwalsh.name/font-smoothing
  */
 html {
-    -ms-text-size-adjust: 100%; /* [1] */
-    -webkit-text-size-adjust: 100%; /* [1] */
-    -webkit-tap-highlight-color: transparent; /* [2] */
-    -webkit-font-smoothing: antialiased; /* [3] */
-    -moz-osx-font-smoothing: grayscale; /* [3] */
+  -ms-text-size-adjust: 100%; /* [1] */
+  -webkit-text-size-adjust: 100%; /* [1] */
+  -webkit-tap-highlight-color: transparent; /* [2] */
+  -webkit-font-smoothing: antialiased; /* [3] */
+  -moz-osx-font-smoothing: grayscale; /* [3] */
   }
   
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /**
@@ -72,22 +72,22 @@ summary {
  */
 ul,
 ol {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 input,
 textarea, 
 select,
 button {
-    font-size: inherit;
-    font-family: inherit;
+  font-size: inherit;
+  font-family: inherit;
 }
 
 /**
  * Don't show empty <p> elements
  */
 p:empty {
-    display: none;
+  display: none;
 }
 
 label {
