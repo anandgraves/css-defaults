@@ -109,3 +109,8 @@ table {
 iframe {
   border: 0;
 }
+
+button {
+  cursor: pointer;
+  font: inherit;
+}
