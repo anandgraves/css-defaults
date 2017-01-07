@@ -40,6 +40,8 @@ html {
  *    https://davidwalsh.name/mobile-highlight-color
  * 3. Improve readability with font smoothing
  *    https://davidwalsh.name/font-smoothing
+ * 4. Use sans-serif as a system fallback font
+ *    https://css-tricks.com/sans-serif/
  */
 html {
   -ms-text-size-adjust: 100%;
@@ -52,6 +54,8 @@ html {
   /* [3] */
   -moz-osx-font-smoothing: grayscale;
   /* [3] */
+  font-family: sans-serif;
+  /* [4] */
 }
 
 body {
@@ -98,6 +102,10 @@ p:empty {
   display: none;
 }
 
+a {
+  color: inherit;
+}
+
 label {
   cursor: pointer;
 }
@@ -129,5 +137,6 @@ input[type="button"] {
   cursor: pointer;
   font: inherit;
   padding: 0;
-  white-space: normal; /* [1] */
+  white-space: normal;
+  /* [1] */
 }
