@@ -111,10 +111,13 @@ iframe {
   border: 0;
 }
 
-button {
- background-color: transparent;
- border: 0;
- cursor: pointer;
- font: inherit;
- padding: 0;
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
 }
