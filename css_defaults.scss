@@ -111,6 +111,11 @@ iframe {
   border: 0;
 }
 
+/**
+ * Use consistent styling across buttons
+ *
+ * 1. Make sure input buttons wrap text.
+ */
 button,
 input[type="reset"],
 input[type="submit"],
@@ -120,4 +125,5 @@ input[type="button"] {
   cursor: pointer;
   font: inherit;
   padding: 0;
+  white-space: normal; /* [1] */
 }
