@@ -3,11 +3,16 @@
  * https://github.com/anandgraves/css-defaults
  */
 /**
- * Some type of properties are not inherited by default and some elements do not inherit some properties.
- * This is to make sure all elements inherit properties from the global scope.
- * https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
- */
+  * Some type of properties are not inherited by default and some elements do not inherit some properties.
+  * This is to make sure all elements inherit properties from the global scope.
+  * https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
+  *
+  * 1. Make sure the -webkit-font-smoothing is set to 'inherit' instead of the default 'auto'.
+  *    http://stackoverflow.com/questions/13556481/font-smoothing-not-applied-to-buttons/13679211
+  */
 * {
+  -webkit-font-smoothing: antialiased;
+  /* [1] */
   font-family: inherit;
   line-height: inherit;
   color: inherit;
@@ -110,7 +115,13 @@ iframe {
   border: 0;
 }
 
-button {
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  background-color: transparent;
+  border: 0;
   cursor: pointer;
   font: inherit;
+  padding: 0;
 }
