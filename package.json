@@ -1,7 +1,7 @@
 {
   "name": "css-defaults",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS defaults for every project",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anandgraves/css-defaults.git"
