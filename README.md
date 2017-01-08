@@ -8,6 +8,7 @@ Inspired by "[Forget normalize or resets; lay your own css foundation](http://ja
 ## Todos
 
 * Correct styles for input type search
+* Testing if vertical-align: baseline is needed on the universal selector
 
 
 ## Licence
