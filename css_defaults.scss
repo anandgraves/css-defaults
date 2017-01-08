@@ -1,5 +1,6 @@
 /**
  * CSS Defaults
+ * version 1.13.1
  * https://github.com/anandgraves/css-defaults
  */
 
@@ -52,7 +53,7 @@ html {
   -moz-osx-font-smoothing: grayscale; /* [3] */
   font-family: sans-serif; /* [4] */
   }
-  
+
 body {
   overflow-x: hidden;
 }
@@ -83,7 +84,7 @@ ol {
 }
 
 input,
-textarea, 
+textarea,
 select,
 button {
   font-size: inherit;
