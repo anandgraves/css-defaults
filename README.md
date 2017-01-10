@@ -5,6 +5,12 @@ Inspired by "[Forget normalize or resets; lay your own css foundation](http://ja
 [Shows how all HTML elements are default rendered (work in progress)](http://codepen.io/anandgraves/pen/dNbmEj)
 
 
+## Todos
+
+* Correct styles for input type search
+* Testing if vertical-align: baseline is needed on the universal selector
+
+
 ## Licence
 
 [MIT license](https://en.wikipedia.org/wiki/MIT_License).
