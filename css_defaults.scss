@@ -1,6 +1,6 @@
 /**
  * CSS Defaults
- * version 1.13.1
+ * version 1.14.1
  * https://github.com/anandgraves/css-defaults
  */
 
@@ -134,4 +134,8 @@ input[type="button"] {
   font: inherit;
   padding: 0;
   white-space: normal; /* [1] */
+}
+
+[hidden] {
+  display: none;
 }
