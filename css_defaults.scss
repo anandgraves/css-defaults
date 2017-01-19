@@ -1,6 +1,6 @@
 /**
  * CSS Defaults
- * version 1.14.1
+ * version 1.15.1
  * https://github.com/anandgraves/css-defaults
  */
 
@@ -73,6 +73,21 @@ nav,
 section,
 summary {
   display: block;
+}
+
+/**
+ * Reset the default font-weight: bold.
+ * Don't forget to set the correct bold font
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-weight: normal;
 }
 
 /**
