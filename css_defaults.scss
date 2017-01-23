@@ -76,8 +76,9 @@ summary {
 }
 
 /**
- * Reset the default font-weight: bold.
+ * Reset the default font-weight: bold to avoid faux bold
  * Don't forget to set the correct bold font
+ * http://alistapart.com/article/say-no-to-faux-bold
  */
 h1,
 h2,
