@@ -76,22 +76,6 @@ summary {
 }
 
 /**
- * Reset the default font-weight: bold to avoid faux bold
- * Don't forget to set the correct bold font
- * http://alistapart.com/article/say-no-to-faux-bold
- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-b,
-strong {
-  font-weight: normal;
-}
-
-/**
  * Shows the bullets inside the content area
  */
 ul,
