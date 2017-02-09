@@ -44,6 +44,10 @@ html {
  *    https://davidwalsh.name/font-smoothing
  * 4. Use sans-serif as a system fallback font
  *    https://css-tricks.com/sans-serif/
+ * 5. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+ *    navigating between pages that do/do not have enough content to produce
+ *    scrollbars naturally.
+ *    https://github.com/inuitcss/inuitcss/blob/develop/elements/_elements.page.scss
  */
 html {
   -ms-text-size-adjust: 100%; /* [1] */
@@ -52,6 +56,7 @@ html {
   -webkit-font-smoothing: antialiased; /* [3] */
   -moz-osx-font-smoothing: grayscale; /* [3] */
   font-family: sans-serif; /* [4] */
+  overflow-y: scroll; /* [5] */
   }
 
 body {
