@@ -1,11 +1,10 @@
+@charset "UTF-8";
 /**
  * CSS Defaults
- * version 1.15.1
+ * version 1.16.2
  * https://github.com/anandgraves/css-defaults
  */
-
-
- /**
+/**
   * Some type of properties are not inherited by default and some elements do not inherit some properties.
   * This is to make sure all elements inherit properties from the global scope.
   * https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
@@ -14,7 +13,8 @@
   *    http://stackoverflow.com/questions/13556481/font-smoothing-not-applied-to-buttons/13679211
   */
 * {
-  -webkit-font-smoothing: antialiased; /* [1] */
+  -webkit-font-smoothing: antialiased;
+  /* [1] */
   font-family: inherit;
   line-height: inherit;
   color: inherit;
@@ -44,15 +44,27 @@ html {
  *    https://davidwalsh.name/font-smoothing
  * 4. Use sans-serif as a system fallback font
  *    https://css-tricks.com/sans-serif/
+ * 5. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+ *    navigating between pages that do/do not have enough content to produce
+ *    scrollbars naturally.
+ *    https://github.com/inuitcss/inuitcss/blob/develop/elements/_elements.page.scss
  */
 html {
-  -ms-text-size-adjust: 100%; /* [1] */
-  -webkit-text-size-adjust: 100%; /* [1] */
-  -webkit-tap-highlight-color: transparent; /* [2] */
-  -webkit-font-smoothing: antialiased; /* [3] */
-  -moz-osx-font-smoothing: grayscale; /* [3] */
-  font-family: sans-serif; /* [4] */
-  }
+  -ms-text-size-adjust: 100%;
+  /* [1] */
+  -webkit-text-size-adjust: 100%;
+  /* [1] */
+  -webkit-tap-highlight-color: transparent;
+  /* [2] */
+  -webkit-font-smoothing: antialiased;
+  /* [3] */
+  -moz-osx-font-smoothing: grayscale;
+  /* [3] */
+  font-family: sans-serif;
+  /* [4] */
+  overflow-y: scroll;
+  /* [5] */
+}
 
 body {
   overflow-x: hidden;
@@ -73,22 +85,6 @@ nav,
 section,
 summary {
   display: block;
-}
-
-/**
- * Reset the default font-weight: bold to avoid faux bold
- * Don't forget to set the correct bold font
- * http://alistapart.com/article/say-no-to-faux-bold
- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-b,
-strong {
-  font-weight: normal;
 }
 
 /**
@@ -115,7 +111,7 @@ p:empty {
 }
 
 a {
- color: inherit;
+  color: inherit;
 }
 
 label {
@@ -149,7 +145,8 @@ input[type="button"] {
   cursor: pointer;
   font: inherit;
   padding: 0;
-  white-space: normal; /* [1] */
+  white-space: normal;
+  /* [1] */
 }
 
 [hidden] {
