@@ -141,6 +141,9 @@ input[type="button"] {
   white-space: normal; /* [1] */
 }
 
+/**
+ * Add support for older browsers
+ */
 [hidden] {
   display: none;
 }
