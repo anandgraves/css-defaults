@@ -119,11 +119,7 @@ a {
  */
 label,
 button,
-input[type='radio'],
-input[type='checkbox'],
-input[type="reset"],
-input[type="submit"],
-input[type="button"],
+input,
 select {
   cursor: pointer;
 }
