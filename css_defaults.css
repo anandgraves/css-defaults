@@ -94,13 +94,6 @@ button {
   font-family: inherit;
 }
 
-/**
- * Don't show empty <p> elements
- */
-p:empty {
-  display: none;
-}
-
 a {
   color: inherit;
 }
