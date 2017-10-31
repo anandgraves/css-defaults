@@ -86,14 +86,6 @@ summary {
   display: block;
 }
 
-/**
- * Shows the bullets inside the content area
- */
-ul,
-ol {
-  margin-left: 1rem;
-}
-
 input,
 textarea,
 select,
