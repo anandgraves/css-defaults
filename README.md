@@ -3,8 +3,3 @@ Inspired by "[Forget normalize or resets; lay your own css foundation](http://ja
 
 ## Demo
 [Shows how all HTML elements are default rendered (work in progress)](http://codepen.io/anandgraves/pen/dNbmEj)
-
-
-## Licence
-
-[MIT license](https://en.wikipedia.org/wiki/MIT_License).
