@@ -10,6 +10,8 @@
   */
 * {
   font-family: inherit;
+  font-weight: normal;
+  font-style: normal;
   line-height: inherit;
   color: inherit;
   margin: 0;
