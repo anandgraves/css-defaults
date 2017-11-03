@@ -3,17 +3,18 @@
  * version 2.21.3
  * https://github.com/anandgraves/css-defaults
  */
+
 /**
-  * Some type of properties are not inherited by default and some elements do not inherit some properties.
-  * This is to make sure all elements inherit properties from the global scope.
-  * https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
+  * 1. Some type of properties are not inherited by default and some elements do not inherit some properties.
+  *    This is to make sure to inherit properties from the global scope.
+  *    https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
   */
 * {
-  font-family: inherit;
+  font-family: inherit; /* [1] */
+  line-height: inherit; /* [1] */
+  color: inherit; /* [1] */
   font-weight: normal;
   font-style: normal;
-  line-height: inherit;
-  color: inherit;
   margin: 0;
   padding: 0;
 }
