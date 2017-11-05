@@ -8,6 +8,7 @@
   * 1. Some type of properties are not inherited by default and some elements do not inherit some properties.
   *    This is to make sure to inherit properties from the global scope.
   *    https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
+  * 2. Hide default underlining for links. Most links are usually not text links but user interface elements.
   */
 * {
   font-family: inherit; /* [1] */
@@ -15,6 +16,7 @@
   color: inherit; /* [1] */
   font-weight: normal;
   font-style: normal;
+  text-decoration: none; /* [2] */
   margin: 0;
   padding: 0;
 }
