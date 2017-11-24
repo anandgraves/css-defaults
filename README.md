@@ -5,4 +5,4 @@ Inspired by "[Forget normalize or resets; lay your own css foundation](http://ja
 
 
 ## Demo
-[Shows how all HTML elements are default rendered (work in progress)](http://codepen.io/anandgraves/pen/dNbmEj)
+[Shows how all HTML elements are default rendered (work in progress)](https://s.codepen.io/anandgraves/debug/dNbmEj/YvAgOPzvGVLA)
