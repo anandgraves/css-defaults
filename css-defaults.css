@@ -63,19 +63,9 @@ body {
 }
 
 /**
- * Enable HTML5 elements to be able to be styled through CSS in Internet Explorer
+ * Add the correct display for <main> up to IE 11
  */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-nav,
-section,
-summary {
+main {
   display: block;
 }
 
