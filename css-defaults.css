@@ -22,7 +22,7 @@
 }
 
 /**
- * Using border-box for box sizing
+ * Using border-box for box sizing.
  * https://www.paulirish.com/2012/box-sizing-border-box-ftw/
  */
 html {
@@ -63,7 +63,7 @@ body {
 }
 
 /**
- * Add the correct display for <main> up to IE 11
+ * Add the correct display for <main> up to IE 11.
  */
 main {
   display: block;
@@ -77,12 +77,15 @@ button {
   font-family: inherit;
 }
 
+/**
+ * An anchor with the href attribute does not inherit the color.
+ */
 a {
   color: inherit;
 }
 
 /**
- * Set the default cursor on form elements for a better user experience
+ * Set the default cursor on form elements for a better user experience.
  */
 label,
 button,
@@ -105,7 +108,7 @@ iframe {
 }
 
 /**
- * Use consistent styling across buttons
+ * Use consistent styling across buttons.
  *
  * 1. Make sure input buttons wrap text.
  */
