@@ -112,7 +112,6 @@ input[type="button"] {
 
 /**
  * Remove default table spacing.
- * https://github.com/inuitcss/inuitcss/blob/master/generic/_generic.reset.scss
  */
 table {
   border-collapse: collapse;
