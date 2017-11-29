@@ -1,4 +1,4 @@
-/* CSS Defaults v3.23.3, https://github.com/anandgraves/css-defaults */
+/* CSS Defaults v4.23.3, https://github.com/anandgraves/css-defaults */
 
 /**
   * 1. Some type of properties are not inherited by default and some elements do not inherit some properties.
@@ -63,6 +63,19 @@ body {
  */
 main {
   display: block;
+}
+
+/**
+ * See http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation 
+ * why headings should inherit the same font size as the surrounding text by default.
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
 }
 
 /**
