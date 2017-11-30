@@ -1,4 +1,4 @@
-/* CSS Defaults v4.23.3, https://github.com/anandgraves/css-defaults */
+/* CSS Defaults v4.24.3, https://github.com/anandgraves/css-defaults */
 
 /**
   * 1. Some type of properties are not inherited by default and some elements do not inherit some properties.
@@ -119,10 +119,7 @@ button,
 input[type="reset"],
 input[type="submit"],
 input[type="button"] {
-  background-color: transparent;
-  border: 0;
   font: inherit;
-  padding: 0;
   white-space: normal; /* [1] */
 }
 
