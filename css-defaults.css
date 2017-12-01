@@ -1,4 +1,4 @@
-/* CSS Defaults v5.24.3, https://github.com/anandgraves/css-defaults */
+/* CSS Defaults v5.25.3, https://github.com/anandgraves/css-defaults */
 
 /**
   * 1. Some type of properties are not inherited by default and some elements do not inherit some properties.
@@ -113,19 +113,6 @@ button,
 input,
 select {
   cursor: pointer;
-}
-
-/**
- * Use consistent styling across buttons.
- *
- * 1. Make sure input buttons wrap text.
- */
-button,
-input[type="reset"],
-input[type="submit"],
-input[type="button"] {
-  font: inherit;
-  white-space: normal; /* [1] */
 }
 
 [hidden] {
