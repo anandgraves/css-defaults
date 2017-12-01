@@ -1,0 +1,83 @@
+/* CSS Defaults v5.25.3, https://github.com/anandgraves/css-defaults */
+* {
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  -ms-text-size-adjust: 100%; /* [1] */
+  -webkit-text-size-adjust: 100%; /* [1] */
+  -webkit-tap-highlight-color: transparent; /* [2] */
+  -webkit-font-smoothing: antialiased; /* [3] */
+  -moz-osx-font-smoothing: grayscale; /* [3] */
+  font-family: sans-serif; /* [4] */
+  overflow-y: scroll; /* [5] */
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+input,
+textarea,
+select,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+label,
+button,
+input,
+select {
+  cursor: pointer;
+}
+
+[hidden] {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+iframe {
+  border: 0;
+}
