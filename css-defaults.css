@@ -59,6 +59,9 @@ html {
   overflow-y: scroll; /* [5] */
 }
 
+/**
+ * Don't show a horizontal scroll bar if an element exceeds the viewport size.
+ */
 body {
   overflow-x: hidden;
 }
