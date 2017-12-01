@@ -1,4 +1,4 @@
-/* CSS Defaults v4.24.3, https://github.com/anandgraves/css-defaults */
+/* CSS Defaults v5.24.3, https://github.com/anandgraves/css-defaults */
 
 /**
   * 1. Some type of properties are not inherited by default and some elements do not inherit some properties.
@@ -10,6 +10,7 @@
   font-family: inherit; /* [1] */
   line-height: inherit; /* [1] */
   color: inherit; /* [1] */
+  font-size: 100%; /* [1] */
   font-weight: normal;
   font-style: normal;
   text-decoration: none; /* [2] */
