@@ -1,4 +1,4 @@
-/* CSS Defaults v5.25.3, https://github.com/anandgraves/css-defaults */
+/* CSS Defaults v5.26.3, https://github.com/anandgraves/css-defaults */
 
 /**
   * 1. Some type of properties are not inherited by default and some elements do not inherit some properties.
@@ -98,14 +98,6 @@ ul {
  */
 a {
   color: inherit;
-}
-
-input,
-textarea,
-select,
-button {
-  font-size: inherit;
-  font-family: inherit;
 }
 
 /**
