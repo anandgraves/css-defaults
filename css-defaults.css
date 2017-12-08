@@ -4,20 +4,14 @@
   * 1. Some type of properties are not inherited by default and some elements do not inherit some properties.
   *    This is to make sure to inherit properties from the global scope.
   *    https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
-  * 2. Set a default font weight and style for all elements. This resets elements that are bold/italic by default, e.g.:
-  *    <b>, <strong>, <em>, <address>, <cite>.
-  *    Set the correct font weight/style with your preferred font to avoid faux bold/italic: 
-  *    http://www.456bereastreet.com/archive/201012/font-face_tip_define_font-weight_and_font-style_to_keep_your_css_simple/
-  * 3. Hide default underlining for links. Most links are usually not text links but user interface elements.
+  * 2. Hide default underlining for links. Most links are usually not text links but user interface elements.
   */
 * {
   font-family: inherit; /* [1] */
   line-height: inherit; /* [1] */
   color: inherit; /* [1] */
   font-size: 100%; /* [1] */
-  font-weight: normal; /* [2] */
-  font-style: normal; /* [2] */
-  text-decoration: none; /* [3] */
+  text-decoration: none; /* [2] */
   margin: 0;
   padding: 0;
 }
