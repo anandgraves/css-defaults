@@ -18,13 +18,13 @@ html {
 }
 
 html {
-  -ms-text-size-adjust: 100%; /* [1] */
-  -webkit-text-size-adjust: 100%; /* [1] */
-  -webkit-tap-highlight-color: transparent; /* [2] */
-  -webkit-font-smoothing: antialiased; /* [3] */
-  -moz-osx-font-smoothing: grayscale; /* [3] */
-  font-family: sans-serif; /* [4] */
-  overflow-y: scroll; /* [5] */
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
+  overflow-y: scroll;
 }
 
 body {
