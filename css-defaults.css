@@ -54,13 +54,6 @@ html {
 }
 
 /**
- * Don't show a horizontal scroll bar if an element exceeds the viewport size.
- */
-body {
-  overflow-x: hidden;
-}
-
-/**
  * Add the correct display for <main> up to IE 11.
  */
 main {
