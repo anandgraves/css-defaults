@@ -27,10 +27,6 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 main {
   display: block;
 }
