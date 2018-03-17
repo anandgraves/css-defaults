@@ -88,12 +88,14 @@ a {
 }
 
 /**
- * Set the default cursor on form elements for a better user experience.
+ * Set the default cursor on certain form elements for a better user experience.
  */
 label,
 button,
-input,
-select {
+input[type="radio"],
+input[type="checkbox"],
+input[type="submit"],
+input[type="file"] {
   cursor: pointer;
 }
 
