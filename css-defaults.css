@@ -32,13 +32,11 @@ html {
  * 1. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  *    https://github.com/necolas/normalize.css
- * 2. Change the default tap highlight color.
- *    https://davidwalsh.name/mobile-highlight-color
- * 3. Improve readability with font smoothing
+ * 2. Improve readability with font smoothing
  *    https://davidwalsh.name/font-smoothing
- * 4. Use sans-serif as a system fallback font
+ * 3. Use sans-serif as a system fallback font
  *    https://css-tricks.com/sans-serif/
- * 5. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+ * 4. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
  *    navigating between pages that do/do not have enough content to produce
  *    scrollbars naturally.
  *    https://github.com/inuitcss/inuitcss/blob/develop/elements/_elements.page.scss
@@ -46,11 +44,10 @@ html {
 html {
   -ms-text-size-adjust: 100%; /* [1] */
   -webkit-text-size-adjust: 100%; /* [1] */
-  -webkit-tap-highlight-color: transparent; /* [2] */
-  -webkit-font-smoothing: antialiased; /* [3] */
-  -moz-osx-font-smoothing: grayscale; /* [3] */
-  font-family: sans-serif; /* [4] */
-  overflow-y: scroll; /* [5] */
+  -webkit-font-smoothing: antialiased; /* [2] */
+  -moz-osx-font-smoothing: grayscale; /* [2] */
+  font-family: sans-serif; /* [3] */
+  overflow-y: scroll; /* [4] */
 }
 
 /**
