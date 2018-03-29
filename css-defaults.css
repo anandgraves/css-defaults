@@ -57,17 +57,14 @@ main {
   display: block;
 }
 
-/**
- * See http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation 
- * why headings should inherit the same font size as the surrounding text by default.
- */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-size: 100%;
+  font-size: 125%;
+  font-weight: normal;
 }
 
 /**
