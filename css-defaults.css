@@ -57,6 +57,9 @@ main {
   display: block;
 }
 
+/**
+ * https://csswizardry.com/2016/02/managing-typography-on-large-apps/
+ */
 h1,
 h2,
 h3,
