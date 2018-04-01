@@ -91,10 +91,6 @@ input[type="file"] {
   cursor: pointer;
 }
 
-[hidden] {
-  display: none;
-}
-
 /**
  * Remove default table spacing.
  */
