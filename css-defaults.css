@@ -80,6 +80,16 @@ a {
 }
 
 /**
+ * Setting `vertical-align` removes the whitespace that appears under `img`
+ * elements when they are dropped into a page as-is. Safer alternative to
+ * using `display: block;`.
+ * https://github.com/inuitcss/inuitcss/blob/develop/elements/_elements.images.scss
+ */
+img {
+  vertical-align: middle;
+}
+
+/**
  * Set the default cursor on certain form elements for a better user experience.
  */
 label,
