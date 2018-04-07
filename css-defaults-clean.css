@@ -4,7 +4,6 @@
   line-height: inherit;
   color: inherit;
   font-size: 100%;
-  text-decoration: none;
   margin: 0;
   padding: 0;
 }
@@ -44,6 +43,7 @@ ul {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img {
