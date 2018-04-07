@@ -29,9 +29,7 @@ html {
 /**
  * 1. Improve readability with font smoothing
  *    https://davidwalsh.name/font-smoothing
- * 2. Use sans-serif as a system fallback font
- *    https://css-tricks.com/sans-serif/
- * 3. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+ * 2. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
  *    navigating between pages that do/do not have enough content to produce
  *    scrollbars naturally.
  *    https://github.com/inuitcss/inuitcss/blob/develop/elements/_elements.page.scss
@@ -39,8 +37,7 @@ html {
 html {
   -webkit-font-smoothing: antialiased; /* [1] */
   -moz-osx-font-smoothing: grayscale; /* [1] */
-  font-family: sans-serif; /* [2] */
-  overflow-y: scroll; /* [3] */
+  overflow-y: scroll; /* [2] */
 }
 
 /**
