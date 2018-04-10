@@ -6,7 +6,6 @@
   *    https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/
   */
 * {
-  font-family: inherit; /* [1] */
   line-height: inherit; /* [1] */
   color: inherit; /* [1] */
   font-size: 100%; /* [1] */
@@ -84,6 +83,16 @@ a {
  */
 img {
   vertical-align: middle;
+}
+
+/**
+ * Use the default font family for certain form elements that don't inherit this by default.
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
 }
 
 /**
