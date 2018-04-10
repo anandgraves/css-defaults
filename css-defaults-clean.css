@@ -1,6 +1,5 @@
 /* CSS Defaults v5.25.3, https://github.com/anandgraves/css-defaults */
 * {
-  font-family: inherit;
   line-height: inherit;
   color: inherit;
   font-size: 100%;
@@ -47,6 +46,13 @@ a {
 
 img {
   vertical-align: middle;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
 }
 
 label,
