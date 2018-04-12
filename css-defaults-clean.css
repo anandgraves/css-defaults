@@ -1,7 +1,6 @@
 /* CSS Defaults v5.25.3, https://github.com/anandgraves/css-defaults */
 * {
   line-height: inherit;
-  color: inherit;
   font-size: 100%;
   margin: 0;
   padding: 0;
@@ -52,6 +51,7 @@ button,
 input,
 select,
 textarea {
+  color: inherit;
   font-family: inherit;
 }
 
