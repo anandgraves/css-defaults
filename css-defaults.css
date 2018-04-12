@@ -7,7 +7,6 @@
   */
 * {
   line-height: inherit; /* [1] */
-  color: inherit; /* [1] */
   font-size: 100%; /* [1] */
   margin: 0;
   padding: 0;
@@ -86,13 +85,15 @@ img {
 }
 
 /**
- * Use the default font family for certain form elements that don't inherit this by default.
+ * 1. Use the default color which isn't inherited by default.
+ * 2. Use the default font family which isn't inherited by default.
  */
 button,
 input,
 select,
 textarea {
-  font-family: inherit;
+  color: inherit; /* [1] */
+  font-family: inherit; /* [2] */
 }
 
 /**
