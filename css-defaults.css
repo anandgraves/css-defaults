@@ -40,7 +40,7 @@ html {
 }
 
 /**
- * Add the correct display for <main> up to IE 11.
+ * Add the correct display for <main> up to and including IE 11.
  */
 main {
   display: block;
