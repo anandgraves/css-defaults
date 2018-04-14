@@ -66,15 +66,6 @@ ul {
 }
 
 /**
-  * 1. An anchor with the href attribute does not inherit the color.
-  * 2. Hide default underlining for links. Most links are usually not text links but user interface elements.
- */
-a {
-  color: inherit; /* [1] */
-  text-decoration: none; /* [2] */
-}
-
-/**
  * Setting `vertical-align` removes the whitespace that appears under `img`
  * elements when they are dropped into a page as-is. Safer alternative to
  * using `display: block;`.
