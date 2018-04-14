@@ -84,18 +84,6 @@ textarea {
 }
 
 /**
- * Set the default cursor on certain form elements for a better user experience.
- */
-label,
-button,
-input[type="radio"],
-input[type="checkbox"],
-input[type="submit"],
-input[type="file"] {
-  cursor: pointer;
-}
-
-/**
  * Add the correct display in IE 10+.
  */
 template {
