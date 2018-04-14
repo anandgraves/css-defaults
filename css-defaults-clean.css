@@ -49,15 +49,6 @@ textarea {
   font-family: inherit;
 }
 
-label,
-button,
-input[type="radio"],
-input[type="checkbox"],
-input[type="submit"],
-input[type="file"] {
-  cursor: pointer;
-}
-
 template {
   display: none;
 }
