@@ -7,7 +7,6 @@
   */
 * {
   line-height: inherit; /* [1] */
-  font-size: 100%; /* [1] */
   margin: 0;
   padding: 0;
 }
@@ -81,6 +80,7 @@ select,
 textarea {
   color: inherit; /* [1] */
   font-family: inherit; /* [2] */
+  font-size: 100%;
 }
 
 /**
