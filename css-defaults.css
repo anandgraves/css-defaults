@@ -77,7 +77,7 @@ img {
 /**
   * The color set on html isn't inherited by default by button, input, select
   * and textarea. This inherits the color. Button, input, textarea and select do
-  * not inherit the font family. This inherits the font family. Button, input,
+  * not inherit the font family and font weight by default. Button, input,
   * textarea and select do not inherit the font size. This rule normalizes all
   * font sizes.
   */
@@ -87,6 +87,7 @@ select,
 textarea {
   color: inherit;
   font-family: inherit;
+  font-weight: inherit;
   font-size: 100%;
 }
 
