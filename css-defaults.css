@@ -69,9 +69,17 @@ h6 {
   * elements when they are dropped into a page as-is. Is a safer
   * alternative to using display: block.
   * https://github.com/inuitcss/inuitcss/blob/develop/elements/_elements.images.scss
+  * https://github.com/mozdevs/cssremedy/blob/master/remedy.css
   */
-img {
-  vertical-align: middle;
+img, video  { 
+  display: block; /* Switch display mode to block, since that's what we usually want for images. */
+  vertical-align: middle;  /* If you override, and make an image inline, it's likely you'll want middle vertical alignment. */
+}
+
+/* https://github.com/mozdevs/cssremedy/blob/master/remedy.css */
+img, video {
+  max-width: 100%; /* Make images and video flexible by default. */
+  height: auto; /* Ensure images and video maintain their aspect ratio when max-width comes into play. */
 }
 
 /**
