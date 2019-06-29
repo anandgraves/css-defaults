@@ -1,22 +1,13 @@
-/* CSS Defaults https://github.com/anandgraves/css-defaults */
+/* CSS Defaults https://github.com/nanteenet/css-defaults */
 
 /**
-  * Some type of properties are not inherited by default and some elements do
-  * not inherit some properties. This is to make sure to inherit properties from
-  * the global scope.
-  * 1. The default value of line height is normal. Chrome, Safari and Firefox
-  *    use 'normal' as the default for several elements. This value is computed
-  *    from font metrics. To ensure a consistent line height all elements
-  *    inherit the line height from html.
-  * 2. In a visual design to be built, the spacings of paragraphs, headings and
-  *    other elements are always custom and not the browser  default. Resetting
-  *    this makes creating a new vertical rhythm easier. It also easily shows
-  *    what elements don't have a vertical rhythm yet.
+  * Resetting the margins of the paragraphs, headings and other elements
+  * makes creating a new vertical rhythm easier. It also easily shows
+  * what elements don't have a vertical rhythm yet.
   */
 * {
-  line-height: inherit; /* 1 */
-  margin: 0; /* 2 */
-  padding: 0; /* 2 */
+  margin: 0; 
+  padding: 0;
   box-sizing: inherit;
 }
 
@@ -27,59 +18,43 @@
 
 /**
   * 1. Improve readability with font smoothing.
-  * 2. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
-  *    navigating between pages that do not have enough content to produce
-  *    scrollbars naturally.
-  * 3. Apply a natural box layout model to all elements, but allowing
+  * 2. Apply a natural box layout model to all elements, but allowing
   *    components to change.
   *    https://www.paulirish.com/2012/box-sizing-border-box-ftw/
   */
 html {
   -webkit-font-smoothing: antialiased; /* 1 */
   -moz-osx-font-smoothing: grayscale; /* 1 */
-  overflow-y: scroll; /* 2 */
-  box-sizing: border-box; /* 3 */
-}
-
-/**
-  * Add the correct display for main up to and including IE 11.
-  */
-main {
-  display: block;
+  box-sizing: border-box; /* 2 */
 }
 
 /**
   * All the headings have by default a divergent font size from the font size
-  * set on html. Sets the font size of all headings the same and slightly bigger
-  * than the default text. This allows for styling all headings easily with *
+  * set on html. Set the font size of all headings the same and slightly bigger
+  * than the default text. This allows for styling all headings easily with
   * classes instead of the headings itself.
   * https://csswizardry.com/2016/02/managing-typography-on-large-apps/
   */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1.2rem;
   font-weight: normal;
 }
 
 /**
-  * Setting vertical-align removes the whitespace that appears under img
-  * elements when they are dropped into a page as-is. Is a safer
-  * alternative to using display: block.
-  * https://github.com/inuitcss/inuitcss/blob/develop/elements/_elements.images.scss
-  * https://github.com/mozdevs/cssremedy/blob/master/remedy.css
+  * 1. Switch display mode to block, since that's what we usually want for images.
+  * 2. If you override, and make an image inline, it's likely you'll want middle vertical alignment.
+       Setting vertical-align removes the whitespace that appears under img elements when they are 
+       dropped into a page as-is. Is a safer alternative to using display: block.
+  * 3. Make images and video flexible by default.
+  * 4. Ensure images and video maintain their aspect ratio when max-width comes into play
+  https://github.com/inuitcss/inuitcss/blob/develop/elements/_elements.images.scss
+  https://github.com/mozdevs/cssremedy/blob/master/remedy.css
   */
 img, video  { 
-  display: block; /* Switch display mode to block, since that's what we usually want for images. */
-  vertical-align: middle;  /* If you override, and make an image inline, it's likely you'll want middle vertical alignment. */
-}
-
-/* https://github.com/mozdevs/cssremedy/blob/master/remedy.css */
-img, video {
-  max-width: 100%; /* Make images and video flexible by default. */
-  height: auto; /* Ensure images and video maintain their aspect ratio when max-width comes into play. */
+  display: block; /* 1 */
+  vertical-align: middle;  /* 2 */
+  max-width: 100%; /* 3 */
+  height: auto; /* 4 */
 }
 
 /**
@@ -89,10 +64,7 @@ img, video {
   * textarea and select do not inherit the font size. This rule normalizes all
   * font sizes.
   */
-button,
-input,
-select,
-textarea {
+button, input, select, textarea {
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
@@ -106,14 +78,24 @@ template {
   display: none;
 }
 
+/**
+  * Remove the spacing between table cells.
+  */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 /**
- * Add the correct display in IE 10.
- */
+  * Add the correct display for main up to and including IE 11.
+  */
+main {
+  display: block;
+}
+
+/**
+  * Add the correct display in IE 10.
+  */
 [hidden] {
   display: none;
 }
